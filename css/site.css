@@ -1,4 +1,10 @@
-img {
+p{
+	margin-top:0;
+	line-height: 1em;
+}
+
+
+.logo {
 	width: 120px;
 }
 
@@ -15,28 +21,12 @@ img {
 	padding-left: 20px;
 }
 
-.link {
-	padding: 1px 5px 1px 5px;
-	color: #000;
-	text-decoration: none;
-}
 
-.link:hover {
-	font: georgia;
-	background-color: #d9f3f5;
-	color: #1515f0;
-}
-
-/*
-margin-top: 20px;
-margin-right: 20px;
-margin-bottom: 20px;
-margin-left: 20px;
-*/
 
 .sobre-mim {
-	margin: 2% 2%;
-	width: 90%;
+	float: left;
+	margin: 0 2%;
+	width: 76%;
 }
 
 .titulo {
@@ -66,16 +56,6 @@ margin-left: 20px;
 	left: 2%
 }
 
-/*Aqui as coordenadas da minha foto referente a página (home), ou (index) */
-.perfil-index {
-	border: 5px solid #000;
-	float: left;
-	width: 30%;	
-	margin-top: 5%; 
-	margin-left: 0%;
-	margin-bottom: 2%;
-	margin-right: 5%;
-	}
 
 
 /*Aqui,está a formatação do currículo*/
@@ -85,42 +65,28 @@ margin-left: 20px;
 	color: #1515f0;
 	float:
 }
+.principal-foto {
+	width:30%;
+    float: left;
+    margin: 0;	
+}
 
-.experiencias {
-	padding-left:20%;
-	font-family:Comic Sans MS;
-	float: bottom;
-	padding:0%;
-    display: block;
-    margin-top:0%;
-    margin-left: 1%;
-	margin-bottom: 0%;
-    margin-right: 0%;
-	
+	/*imagem de perfil*/
+.perfil-index {
+	width: 100%;
+	border-radius:50%;
 }
 
 /*div experiências se refere a formatação de texto e posicionamento.*/
 div.experiencias {
-	text-align:justify;
-	width:800px;
-	display:block;
+	width:66%;
 	float:right;
-	margin:auto;
-	position:relative;
-	overflow:hidden;
-	padding-right:40px;
+	padding-left:2%;
+	padding-right: 2%;
 }
-
-/*imagem de perfil*/
-.perfil {
-	width: 80%;
-	/*border-width: 10px;
-	border-style: solid;
-	border-color: #f5bc07;*/ 
-	
-	border: 5px solid #000;
+.experiencias p{
+	text-align: left;
 }
-
 
 /*bloco da citação favorita*/
 .citacao-favorita {

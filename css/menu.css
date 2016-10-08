@@ -1,0 +1,31 @@
+.menu{
+	background: #fefefe;
+}
+
+.link {
+	padding: 1px 5px 1px 5px;
+	color: #000;
+	text-decoration: none;
+}
+
+.link:hover {
+	font: georgia;
+	background-color: #d9f3f5;
+	color: #1515f0;
+}
+
+
+/*tema de menu lateral*/
+.menu-lateral {
+	
+	width:20%;
+	float:left;	
+}
+.menu-lateral .link{
+	display:block;
+}
+
+.menu-lateral .link:hover {
+	background:#666;
+	color:#fefefe
+}
